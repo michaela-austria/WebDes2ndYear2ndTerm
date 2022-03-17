@@ -1,0 +1,89 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Bebas Neue', cursive;
+background-color:#f4eeff;
+margin:0;
+padding:0;
+}
+.title{
+	font-size:90px;
+	margin-top:20px;
+	font-family: 'Bebas Neue', cursive;
+	color:#252947;
+	margin-left:510px;
+	
+}
+
+.head{
+	height:150px;
+	width:150px;
+	margin-top:10px;
+}
+h1{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 80px;
+	color: #cc5500;
+	text-shadow: 5px 5px 5px white;
+	cursor: default;
+	text-align: center;
+}
+
+h1:hover{
+	color: #252947;
+}
+
+p{
+	font-size:20px;
+	align-items:justify;
+	margin-left:250px;
+	margin-right:160px;
+}
+
+.footer{
+	width:100%;
+	height: auto;
+	margin: auto;
+	background-color: #252947;
+	padding: 20px 0px;
+}
+
+.footer .socialmedia{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	cursor: pointer;
+}
+
+.footer .socialmedia ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer .socialmedia ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #cc5500;
+}
+
+.footer .socialmedia ul li a{
+	color: #252947;
+	font-size: 25px;
+}
+
+.footer .socialmedia ul li a i {
+	line-height:50px;
+}
+
+.footer .credits{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #cc5500;
+	margin-top: 10px;
+}

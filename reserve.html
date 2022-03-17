@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<head>
+	<title> Reservation </title>
+	<link rel="stylesheet" type="text/css" href="reserve_style.css">
+		<link rel="stylesheet" type = "text/css" href="style.css">
+		<link rel="icon" type="image/gif" href="favicon.png" size="32x32">
+		<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="iskript.js"></script>
+</head>
+<body>
+	<input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+    <header>Hongdae Travel</header>
+  <ul>
+  <li><a href="#" onclick="index()"><i class="fas fa-bacon"></i>Home</a></li>
+    <li><a href="#" onclick="about()"><i class="fas fa-hamburger"></i>About</a></li>
+    <li><a href="#"onclick="features()"><i class="fas fa-pizza-slice"></i>Features</a></li>
+    <li><a href="#" onclick="mnts()"><i class="fas fa-drumstick-bite"></i>Moments</a></li>
+    <li><a href="#" onclick="aboutus()"><i class="fas fa-hotdog"></i>About Us</a></li>
+    <li><a href="#"onclick="contact()"><i class="fas fa-cookie"></i>Contact Us</a></li>
+    <li><a href="#" onclick="ref()"><i class="fas fa-ice-cream"></i>References</a></li>
+  </ul>
+</div>
+<center>
+<img class="head" src="favicon.png"/><hr></center>
+<div class="contact-form">
+				<h1> Hongdae Travel Agency </h1>
+				<p><strong> Contact Us </strong> </br> T709 839 P. Paredes, Sampaloc, Manila </br>
+				Phone:0928686837 </br>
+				Email:hongdaetravel@gmail.com </p>
+				
+				<form>
+				<div class="txtb">
+				<label> Full Name: </label><input id="fname" type="text" class="field">
+				</div>
+				
+				<div class="txtb">
+				<label> Email: </label><input id="email" type="email" class="field">
+				</div>
+				
+				<div class="txtb">
+				<label> Contact Number: </label><input id="cpnum" type="email" class="field">
+				</div>
+				
+				<div class="txtb">
+				<label>Destination:</label>
+				<select id="dest" class="desti">
+					<option></option>
+					<option>Baguio</option>
+					<option>Manila</option>
+					<option>Quezon</option>
+					<option>Palawan</option>
+					<option>Cebu</option>
+					<option>Bohol</option>
+					<option>Hong Kong</option>
+					<option>Macau</option>
+					<option>South Korea</option>
+				</select>
+				</div>
+				
+				<div class="txtb">
+				<label> Arrival: </label><input id="arr" type="date" class="field">
+				</div>
+				
+				<div class="txtb">
+				<label> Departure: </label><input id="dep" type="date" class="field">
+				</div>
+				
+				<div class="txtb">
+				<label> No. of People: </label><input id="peo" type="number" class="field" min="1">
+				</div>
+				
+				<div class="txtb">
+				<label> Request: </label><textarea id="req" class="field" placeholder="Message"></textarea>
+				</div>
+				
+				</form>
+				
+				<button id="submit" class="submit" type="submit"  onclick="getValue()"> Submit </button>
+			</div>
+			
+			
+		<div class="HA bg-modal">
+		<div class="modal-content">
+		<div id="close" class="close"> + </div>
+		<h1> Confirmation </h1>
+		<hr>
+		<form>
+				<label><strong>Name: </strong></label> <input id="name" type="text" name="" value="">
+				<label><strong>Email: </strong></label><input id="eml" type="text" name="" value="">
+				<label><strong>Contact Number: </strong></label><input id="num" type="text" name="" value="">
+				<label><strong>Destination: </strong></label><input id="desti" type="text" name="" value="">
+				<label><strong>Arrival: </strong></label> <input id="arv" type="text" name="" value="">
+				<label><strong>Departure: </strong></label> <input id="depa" type="text" name="" value="">
+				<label><strong>No. of People: </strong></label> <input id="nop" type="text" name="" value="">
+				<label><strong>Request: </strong></label> <input id="reqs" type="text" name="" value="">
+				<button id="modClose" class="btn" onclick="mConfirm()"> CONFIRM </button>
+		</form>
+	</div>
+</div><br><br><br><br><br><br>
+<div class = "footer">
+		<div class ="socialmedia">
+			<ul>
+				<li> <a href="https://www.facebook.com/MichsTheMicah" target="blank"><i class="fab fa-facebook"></i></a></li>
+				<li> <a href="https://twitter.com/_aprileight_" target="blank"><i class="fab fa-twitter"></i></a></li>
+				<li> <a href="https://www.instagram.com/_isabeliee" target="blank"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
+		<div class = "credits">
+			© All rights reserve 2020
+		</div>
+		</div>
+
+<script src="reserve.js"> </script>
+</body>
+</html>
+			

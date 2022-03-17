@@ -1,0 +1,100 @@
+.head{
+	height:150px;
+	width:150px;
+	margin-top:10px;
+}
+.title{
+	font-size:60px;
+	margin-top:20px;
+	font-family: 'Bebas Neue', cursive;
+	color:#252947;
+	margin-left:35px;
+}
+.bouncy{
+animation:bouncy 5s infinite linear;
+position:relative;
+margin-left:280px;
+}
+@keyframes bouncy {
+0%{top:0em}
+40%{top:0em}
+43%{top:-0.9em}
+46%{top:0em}
+48%{top:-0.4em}
+50%{top:0em}
+100%{top:0em;}
+}
+.button1 {
+	background-color: white;
+  color:#cc5500;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    border: 2px solid #252497;
+}
+.button1:hover{
+	background-color: #252947;
+}
+
+.head{
+	height:200px;
+	width:200px;
+	margin-left:580px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}

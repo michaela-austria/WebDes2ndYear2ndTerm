@@ -1,0 +1,192 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+margin:0;
+padding:0;
+background-color:#f4eeff;
+}
+.title{
+	font-size:80px;
+	margin-top:20px;
+	font-family: 'Bebas Neue', cursive;
+	color:#252947;
+	margin-left:550px;
+}
+.head{
+height:150px;
+width:150px;
+margin-top:10px;
+}
+
+.gallery{
+	display: flex;
+	width: 1000px;
+	margin: auto;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.polaroid{
+	width: 300px;
+	margin: 0;
+	border: 1px solid white;
+	padding: 25px;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	cursor: pointer;
+}
+
+.polaroid img {
+	width: 100%;
+}
+
+.polaroid .caption{
+	text-align:center;
+	padding: 10px 4px;
+	font-family: 'Bebas Neue', cursive;
+	font-size:20px;
+	color:#252947;
+}
+
+.polaroid:hover{
+	width: 350px;
+	transition: 0.2s;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 90px;
+	color:#252947;
+	text-shadow: 5px 5px 5px white;
+	cursor: default;
+	text-align: center;
+}
+.names0 {
+	font-family: 'Bebas Neue', cursive;
+	font-size:60px;
+	color:#252947;
+	margin-left:720px;
+	margin-top:-150px;
+}
+.names1{
+	font-family: 'Bebas Neue', cursive;
+	font-size:50px;
+	color:#252947;
+	margin-left:710px;
+	margin-top:-150px;
+}
+.names2{
+	font-family: 'Bebas Neue', cursive;
+	font-size:50px;
+	color:#252947;
+	margin-left:720px;
+	margin-top:-150px;
+}
+
+
+.container{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.developerscontent{
+	margin-top:5%;
+	height: 500px;
+}
+
+.developerscontent .devpolaroid{
+	width: 400px;
+	border: 1px solid white;
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.developerscontent .devpolaroid img{
+	width: 100%;
+}
+
+.developerscontent h2{
+	position: absolute;
+	margin-top: -15%;
+	margin-left: 50%;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+.developerscontent .btns{
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 45%;
+}
+
+.developerscontent .btns button{
+  background-color: #252947;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left:90px;
+  cursor: pointer;
+  border-radius: 5px;
+  width:430px;
+}
+
+.developerscontent .btns button:hover{
+  background-color: #cc5500;
+  cursor: pointer;
+}
+
+.footer{
+	width:100%;
+	height: auto;
+	margin: auto;
+	background-color: #252947;
+	padding: 20px 0px;
+}
+
+.footer .socialmedia{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	cursor: pointer;
+}
+
+.footer .socialmedia ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer .socialmedia ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #cc5500;
+}
+
+.footer .socialmedia ul li a{
+	color: #252947;
+	font-size: 25px;
+}
+
+.footer .socialmedia ul li a i {
+	line-height:50px;
+}
+
+.footer .credits{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #cc5500;
+	margin-top: 10px;
+}

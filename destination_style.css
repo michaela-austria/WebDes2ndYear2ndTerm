@@ -1,0 +1,325 @@
+/**@import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
+*, *:before, *:after {
+  font-family:'Roboto light';
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}***/
+body{
+font-family: 'Bebas Neue', cursive;
+background-color:#f4eeff;
+}
+.btn{
+  background-color:#252947;
+  border:none;
+  height:45px;
+  color:#ffffff;
+  width:50%;
+  border-radius:2px;
+  font-size:15px;
+  cursor: pointer;
+  margin-top:15px;
+}
+.btn:hover{
+  height:45px;
+  font-family: Roboto;
+  color:#FFFFFF;
+  background:#cc5500;
+  width:50%;
+  border-radius:2px;
+}
+.up{
+  margin-top:40px;
+}
+
+.img{
+  width:280px;
+  margin-bottom:10px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.container:after, .container:before {
+	content: " ";
+	display: table;
+}
+
+.container:after {
+	clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-1-3 {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid-1 	{width: 40px;}
+.grid-2 	{width: 100px;}
+.grid-3 	{width: 160px;}
+.grid-4 	{width: 220px;}
+.grid-5 	{width: 280px;}
+.grid-6 	{width: 340px;}
+.grid-7 	{width: 400px;}
+.grid-8 	{width: 460px;}
+.grid-9 	{width: 520px;}
+.grid-10 	{width: 580px;}
+.grid-11 	{width: 640px;}
+.grid-12 	{width: 700px;}
+.grid-13 	{width: 760px;}
+.grid-14 	{width: 820px;}
+.grid-15 	{width: 880px;}
+.grid-16 	{width: 940px;}
+.grid-1-3	{width: 300px;}
+
+
+
+/*cards*/
+.container {
+  background: #e2e1e0;
+  text-align: center;
+  background-color:#f4eeff;
+}
+
+.card {
+  background: #fff;
+  border-radius: 6px;
+  display: inline-block;
+  height: 400px;
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+.card-elevation{
+   -moz-box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+   -webkit-box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+   box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.25);
+}
+
+.bg-modal, .abg-modal, .bbg-modal, .cbg-modal, .dbg-modal, .ebg-modal, .fbg-modal, .gbg-modal, .hbg-modal{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	left:0;
+	top:0;
+	overflow:auto;
+	position:fixed;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+}
+
+.bg-modal table th img{
+	margin-top:-40px;
+	margin-left:-30px;
+	width:250px;
+	height:250px;
+}
+
+.bg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.bg-modal h1{
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.abg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:250px;
+}
+
+.abg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.abg-modal h1{
+	text-align:center;
+	margin-bottom:25px;
+}
+
+.bbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:230px;
+}
+
+.bbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.bbg-modal h1{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.cbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:240px;
+}
+
+.cbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.cbg-modal h1{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.dbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:230px;
+}
+
+.dbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.dbg-modal h1{
+	text-align:center;
+	margin-bottom:35px;
+}
+
+.ebg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:250px;
+	height:230px;
+}
+
+.ebg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.ebg-modal h1{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.fbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:230px;
+}
+
+.fbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.fbg-modal h1{
+	text-align:center;
+	margin-bottom:35px;
+}
+
+.gbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:235px;
+}
+
+.gbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.gbg-modal h1{
+	text-align:center;
+	margin-bottom:35px;
+}
+
+.hbg-modal table th img{
+	margin-top:-40px;
+	margin-left:-10px;
+	width:240px;
+	height:230px;
+}
+
+.hbg-modal table td p{
+	font-size:18px;
+	margin-top:-50px;
+}
+
+.hbg-modal h1{
+	text-align:center;
+	margin-bottom:35px;
+}
+
+
+
+.modal-content{
+	width:500px;
+	height:300px;
+	background-color:white;
+	border-radius:4px;
+	text-align:left;
+	padding:20px;
+	position:relative;
+}
+
+.close, .aclose, .bclose, .cclose, .dclose, .eclose, .fclose, .gclose, .hclose {
+	position:absolute;
+	top:0;
+	right:14px;
+	font-size:42px;
+	transform: rotate(45deg);
+	cursor:pointer;
+	float:right;
+}
+
+h2{
+	  font-family: 'Bebas Neue', cursive;
+	   color:#252947;
+	   font-size:90px;
+}
+
+

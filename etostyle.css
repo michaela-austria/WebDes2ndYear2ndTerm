@@ -1,0 +1,175 @@
+
+body{
+margin:0;
+padding:0;
+font-family: 'Bebas Neue', cursive;
+background-color:#f4eeff;
+}
+
+.box .des {
+  padding: 15px;
+  margin-left:2px;
+  margin-top:10px;
+  font-family: 'Bebas Neue', cursive;
+  color:#252947;
+  align-items:justify;
+}
+.bos .des {
+  padding: 15px;
+  margin-left:2px;
+  margin-top:10px;
+  font-family: 'Bebas Neue', cursive;
+  color:#252947;
+  align-items:justify;
+}
+.boc .des {
+  padding: 15px;
+  margin-left:1px;
+  margin-top:10px;
+ font-family: 'Bebas Neue', cursive;
+  color:#252947;
+  align-items:justify;
+}
+.bop .des {
+  padding: 15px;
+  margin-left:10px;
+  margin-top:10px;
+  font-family: 'Bebas Neue', cursive;
+ color:#252947;
+  align-items:justify;
+}
+
+/*PICTURE*/
+.head{
+	height:150px;
+	width:150px;
+	margin-top:10px;
+}
+/*TITLE*/
+.title{
+	font-size:80px;
+	margin-left:515px;
+	margin-top:20px;
+	font-family: 'Bebas Neue', cursive;
+	color:#252947;
+}
+/*UNANG BOX*/
+.box{
+height:200px;
+width:200px;
+margin-left:120px;
+margin-top:90px;
+
+}
+.box img{
+	height:120px;
+	width:120px;
+	margin-left:45px;
+	margin-top:2px;
+}
+.box .desc{
+	font-size:35px;
+	margin-left:34px;
+}
+
+/*PANGALAWANG BOX*/
+.bos{
+height:200px;
+width:200px;
+margin-left:430px;
+margin-top:-210px;
+}
+.bos img{
+	height:120px;
+	width:120px;
+	margin-left:45px;
+	margin-top:10px;
+}
+.bos .desc{
+	font-size:35px;
+	margin-left:70px;
+}
+
+/*PANGATLONG BOX*/
+.boc{
+height:200px;
+width:200px;
+margin-left:740px;
+margin-top:-210px;
+}
+.boc img{
+	height:120px;
+	width:120px;
+	margin-left:45px;
+	margin-top:20px;
+}
+.boc .desc{
+	font-size:35px;
+	margin-left:70px;
+}
+
+/*PANG-APAT NA BOX*/
+.bop{
+height:200px;
+width:200px;
+margin-left:1050px;
+margin-top:-210px;
+}
+.bop img{
+	height:125px;
+	width:125px;
+	margin-left:45px;
+	margin-top:20px;
+}
+.bop .desc{
+	font-size:35px;
+	margin-left:30px;
+}
+
+
+.footer{
+	width:100%;
+	height: auto;
+	margin: auto;
+	background-color: #252947;
+	padding: 20px 0px;
+	margin-top:100px;
+}
+
+.footer .socialmedia{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	cursor: pointer;
+}
+
+.footer .socialmedia ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer .socialmedia ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #cc5500;
+}
+
+.footer .socialmedia ul li a{
+	color: #252947;
+	font-size: 25px;
+}
+
+.footer .socialmedia ul li a i {
+	line-height:50px;
+}
+
+.footer .credits{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #cc5500;
+	margin-top: 10px;
+}

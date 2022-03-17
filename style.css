@@ -1,0 +1,177 @@
+html{
+	scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+}
+body {
+font-family: 'Bebas Neue', cursive;
+background-color:#f4eeff;
+}
+.sidebar {
+  position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #252947;
+  transition: all .5s ease;
+}
+.sidebar header {
+  font-size: 20px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #252947;
+  user-select: none;
+}
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+.sidebar ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  background: #042331;
+  border-radius: 3px;
+  cursor: pointer;
+}
+label #btn{
+  left: 40px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+}
+label #cancel{
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: #0a5275;
+  padding: 4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  left: 250px;
+  opacity: 0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 195px;
+}
+#check:checked ~ section{
+  margin-left: 250px;
+}
+section{
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}
+
+section .logoimage img{
+	height: 500px;
+	margin-top: 8%;
+	margin-left: 18%;
+}
+
+section .platebutton img{
+	position: absolute;
+	height: 100px;
+	margin-left: 30%;
+	margin-top: -6%;
+	cursor: pointer;
+}
+
+section .platebutton img:hover{
+	height: 110px;
+	margin-left: 30%;
+	margin-top: -7%;
+	transition: 0.1s;
+}
+
+h2{
+	font-family: 'Paytone One', sans-serif;
+	font-size: 80px;
+	color: #cc5500;
+	text-shadow: 5px 5px 5px white;
+	cursor: default;
+}
+
+h2:hover{
+	color: #252947;
+}
+
+.footer{
+	width:100%;
+	height: auto;
+	margin: auto;
+	background-color: #252947;
+	padding: 20px 0px;
+}
+
+.footer .socialmedia{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	cursor: pointer;
+}
+
+.footer .socialmedia ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer .socialmedia ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background: #cc5500;
+}
+
+.footer .socialmedia ul li a{
+	color: #252947;
+	font-size: 25px;
+}
+
+.footer .socialmedia ul li a i {
+	line-height:50px;
+}
+
+.footer .credits{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: #cc5500;
+	margin-top: 10px;
+}
